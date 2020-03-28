@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Programador</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header id="meuHeader">
         <!-- Abaixo, um título H1 -->
         <h1>Desenvolvedor Web Junior</h1>
         <!-- Imagem de perfil do candidato -->
-        <img src="https://thumbs.dreamstime.com/b/funny-cartoon-monster-face-showing-tongue-vector-halloween-red-monster-avatar-funny-cartoon-monster-face-showing-tongue-vector-110119564.jpg" alt="Imagem de perfil do candidato" width="96" height="96">
+        <img src="./assets/img/minha-foto.jpg" alt="Imagem de perfil do candidato" width="96" height="96">
         <!-- Todo link externo devemos abrir numa nova guia para não tirar o usuário do nosso site -->
         <p>Marcelo Diament | <a href="https://github.com/Marcelo-Diament" target="_blank" rel="noopener" title="Acesse meu perfil no github">github</a> | <a href="https://linkedin.com/in/marcelodiament" target="_blank" rel="noopener" title="Acesse meu perfil no linkedin">linkedin</a></p>
         <p><a href="mailto:marcelo@diament.com.br?subject=Quero%20te%20contratar&bcc=victor@torres.com.br" title="Entre em contato comigo por email">marcelo@diament.com.br</a> | <a href="tel:+5511976052723" title="Entre em contato comigo por telefone">11 97605 2723</a> | São Paulo</p>
     </header>
     <main>
-        <section>
+        <section class="destaque">
             <h2>Habilidades</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officiis, quam delectus similique magni at vitae corporis consequuntur quibusdam quia facilis neque cupiditate illum itaque necessitatibus obcaecati voluptatibus, ratione maiores?</p>
         </section>
+        <hr>
         <section>
             <h2>Portfolio</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero, autem aut debitis excepturi hic corporis odit delectus itaque eius ut eligendi voluptatibus. Minima nobis quas delectus sunt, aliquid atque?</p>
         </section>
+        <hr>
         <section>
             <h2>Skills</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero, autem aut debitis excepturi hic corporis odit delectus itaque eius ut eligendi voluptatibus. Minima nobis quas delectus sunt, aliquid atque?</p>
         </section>
     </main>
     <aside>
-        <section>
+        <section class="destaque">
             <h3>Sobre</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </section>
+        <!-- Horizontal Row - Uma linha de ponta a ponta -->
+        <hr>
         <section>
             <h3>Experiência</h3>
             <article>
                 <h4>Profissional</h4>
-                <ol>
+                <ol class="destaque">
                     <li>Pintor do Rodapé</li>
                     <li>Cabelereiro de Carecas</li>
                     <li>Estagiário de Estágios</li>
@@ -46,7 +51,7 @@
             </article>
             <article>
                 <h4>Acadêmica</h4>
-                <ul type="square">
+                <ul>
                     <li>
                         <h5>Mestrado em Ciências Computacionais</h5>
                         <ul style="list-style: none;">
@@ -74,6 +79,7 @@
     </aside>
     <footer>
         <p>Marcelo Diament <sup><small>&copy;</small></sup> | <a href="https://github.com/Marcelo-Diament" target="_blank" rel="noopener" title="Acesse meu perfil no github">github</a> | <a href="https://linkedin.com/in/marcelodiament" target="_blank" rel="noopener" title="Acesse meu perfil no linkedin">linkedin</a> | <a href="mailto:marcelo@diament.com.br?subject=Quero%20te%20contratar&bcc=victor@torres.com.br" title="Entre em contato comigo por email">marcelo@diament.com.br</a> | <a href="tel:+5511976052723" title="Entre em contato comigo por telefone">11 97605 2723</a> | São Paulo</p>
+        <a href="#meuHeader" id="irParaTopo">IR PARA O TOPO</a>
     </footer>
 </body>
 </html>
